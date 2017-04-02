@@ -1,0 +1,48 @@
+/*Course: COMP 420
+Name: Ruichong Liu
+WesMail: rliu01@wesleyan.edu
+Due on: April 2, Midnight*/
+body {
+     background-color: rgb(223,223,223);
+     font-family: Helvetica;
+     color: black;
+ }
+
+h3 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 150px;
+    font-weight: bold;
+}
+
+.boundbox {
+    margin-top: 20%;
+}
+
+button[type="submit"] {
+    margin-left: 25%;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #0E1D46;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 3px;
+    margin-top: 15px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+select {
+    transform: translateY(6px);
+}
+
+/*End of the File*/

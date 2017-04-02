@@ -1,0 +1,54 @@
+<!-- Course: COMP 420
+Name: Ruichong Liu
+WesMail: rliu01@wesleyan.edu
+Due on: April 2, Midnight -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Online Currency Converter</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="currency.css">
+  </head>
+
+  <body>
+    <div class = "container">
+        <div class = "row boundbox">
+
+            <div class = "col-lg-6 col-lg-offset-3" id = "box">
+                <h3> Currency Converter </h3>
+                <h1 id = "content"> 1.0000 </h1>
+
+                <div class = "row">
+                    <div class = "col-lg-2 col-lg-offset-2">
+                        <select id="from"></select>
+                    </div>
+
+                    <div class = "col-lg-1">
+                        <h5> to </h5>
+                    </div>
+
+                    <div class="col-lg-1">
+                        <select id="to"></select>
+                    </div>
+                </div>
+
+
+                <button class="btn btn-default" type="submit" id = "btnn">CONVERT</button>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+    <script src="currency.js"></script>
+  </body>
+</html>
+<!-- End of the File -->
