@@ -9,3 +9,6 @@ Timer: A countdown timer, plays 'tick.mp3' when second is decreased by 1, and pl
 
 --
 currency: Displays the current currency converting rate, source: fixer.io
+
+--
+Budget Maker: provides you with a tool to make budget; local storage enabled.
