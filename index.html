@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+<input type="ip" id="ip_input" placeholder="Your IP here...">
+<button onclick="getLocation()">Go</button>
+<h1 id="content"></h1>
+
+<script>
+var content = document.getElementById("content");
+
+function getLocation() {
+    if (navigator.geolocation) {
+        console.log("success");
+        navigator.geolocation.getCurrentPosition(showPosition);
+    } else {
+        content.innerHTML = "Geolocation is not supported by this browser.";
+    }
+}
+
+function showPosition(position) {
+    content.innerHTML = "Latitude: " + position.coords.latitude +
+    "<br>Longitude: " + position.coords.longitude;
+}
+</script>
+
+
+</body>
+</html>
